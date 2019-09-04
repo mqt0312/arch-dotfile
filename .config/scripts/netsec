@@ -1,0 +1,8 @@
+#!/bin/bash
+
+ip link set wlp3s0 down
+macchanger -r wlp3s0
+# systemctl restart netctl-auto@wlp3s0.service
+ip link set wlp3s0 up
+
+

@@ -1,0 +1,21 @@
+#!/bin/bash
+# killall i3lock
+
+i3lock \
+	--indicator \
+	--composite \
+	-c 000000 \
+	-l \
+	--insidecolor=9e9e9e80 \
+	--insidewrongcolor=ff515180 \
+	--insidevercolor=51a8ff80 \
+	--ringcolor=9e9e9eb2 \
+	--ringwrongcolor=ff5151b2 \
+	--ringvercolor=51a8ffb2 \
+	--veriftext="" \
+	--wrongtext="" \
+	--noinputtext=""
+
+
+
+
